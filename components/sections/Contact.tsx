@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/BrandIcons";
 import { Section } from "@/components/Section";
 import { ContactForm } from "@/components/ContactForm";
@@ -49,9 +49,6 @@ export function Contact() {
             </div>
 
             <div className="mt-8 flex flex-col gap-2 text-sm text-muted">
-              <span className="inline-flex items-center gap-2">
-                <Phone size={15} /> {profile.phone}
-              </span>
               <span className="inline-flex items-center gap-2">
                 <MapPin size={15} /> {profile.location}
               </span>

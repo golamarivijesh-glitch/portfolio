@@ -11,7 +11,8 @@ export const profile = {
   // Change this here if the site moves to a custom domain.
   siteUrl: "https://vijesh-portfolio-seven.vercel.app",
   email: "golamarivijesh@gmail.com",
-  phone: "+1 (475) 351-5694",
+  // Phone deliberately omitted — this file lives in a public repo, so anything
+  // here is trivially scrapeable. Reach-out goes through email or the form.
   // Drives the GitHub stats dashboard + links.
   githubUsername: "golamarivijesh-glitch",
   // Optional: create a free form at https://formspree.io and paste the form ID
