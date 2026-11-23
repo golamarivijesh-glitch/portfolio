@@ -3,7 +3,7 @@
 
 export const profile = {
   name: "Vijesh Reddy Golamari",
-  title: "Generative AI Engineer & LLM Specialist",
+  title: "AI/ML Engineer · Generative AI & Agentic AI",
   tagline:
     "I build LLM systems, agentic AI, and RAG platforms that turn frontier models into reliable, production-grade products.",
   location: "Farmington, MI",
@@ -25,24 +25,24 @@ export const profile = {
     resume: "/resume.pdf",
   },
   summary:
-    "Generative AI Engineer and LLM Specialist designing enterprise AI assistants, RAG systems, agentic workflows, LLM evaluation frameworks, and scalable ML platforms. Delivered a production AI assistant that cut ticket-resolution time by 40%, expanded foundation-model benchmarking coverage by 45%, and built distributed transformer systems across financial services, technology, e-commerce, and agriculture.",
+    "AI/ML and Generative AI Engineer with senior-level experience building production-ready LLM applications, RAG pipelines, and agentic workflows. Hands-on across Python, Java, Spring Boot, microservices, cloud platforms, data engineering, and MLOps/LLMOps. Delivered an enterprise AI assistant that cut ticket-resolution time by 40%, built a benchmarking framework that expanded foundation-model coverage by 45%, and shipped distributed transformer systems across e-commerce, technology, financial services, and agriculture.",
   availability: "Open to new opportunities",
 };
 
 // Roles I'm open to (all derived from the résumé). Cycled in the hero and
 // listed in the contact section.
 export const jobTitles: string[] = [
-  "Generative AI Engineer",
-  "LLM Engineer",
   "AI/ML Engineer",
-  "Applied AI Engineer",
+  "Generative AI Engineer",
   "Machine Learning Engineer",
+  "Applied AI Engineer",
   "Agentic AI Engineer",
+  "AI Software Engineer",
+  "LLM Engineer",
+  "Forward Deployed Engineer — AI/ML",
   "LLMOps Engineer",
   "GenAI Evaluation Specialist",
-  "NLP Engineer",
-  "AI Research Engineer",
-  "Technical Lead",
+  "Java / Spring Boot AI Platform Engineer",
 ];
 
 export type Metric = { value: string; label: string };
@@ -281,17 +281,18 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    company: "Symplore Inc",
-    role: "Generative AI Engineer | Project Coordinator | Technical Lead",
+    company: "StockX",
+    role: "AI Software Engineer",
     period: "May 2026 – Present",
-    location: "Michigan",
-    accent: "#a78bfa",
+    location: "Detroit, MI",
+    accent: "#00a046",
     highlights: [
-      "Lead a cross-functional team of eight engineers across AI, Java backend, frontend, cloud, and DevOps — delivering three AI-enabled features on schedule through Agile planning and Jira-based execution.",
-      "Coordinate sprint planning, delivery timelines, architecture decisions, code reviews, and deployment strategies — 95% of technical deliverables meet release dates, cutting schedule slippage by two weeks per quarter.",
-      "Design Generative AI applications using LLMs, RAG pipelines, AI agents, recommendation engines, intelligent search, analytics dashboards, and enterprise knowledge systems.",
-      "Build Java and Spring Boot microservices with REST APIs, Kafka, Redis, PostgreSQL, and AWS — supporting 10,000+ concurrent users and reducing API latency by 30%.",
-      "Implement Apache Spark and Dataflow pipelines that improved data-processing throughput by 40%, while mentoring developers across parallel projects.",
+      "Develop and maintain automated regression tests for backend services and REST APIs — covering business rules, request validation, response schemas, and expected error behavior.",
+      "Design integration and end-to-end tests for service-to-service workflows, checking API contracts, downstream responses, and data consistency across service boundaries.",
+      "Support CI/CD by running smoke and regression suites in build and release workflows, reviewing failed checks to flag regressions and integration risks before deployment.",
+      "Reproduce backend and integration defects from API requests, logs, and test output; document reproduction steps and work with developers to isolate root causes and verify fixes.",
+      "Cover reliability and security-sensitive cases in API tests — timeouts, dependency failures, malformed inputs, and requests with missing credentials or insufficient permissions.",
+      "Partner with engineering, QA, and product teams to turn acceptance criteria into test scenarios, prioritize coverage by release risk, and communicate defects and validation status.",
     ],
   },
   {
@@ -308,12 +309,14 @@ export const experience: Experience[] = [
       "Owned product development from concept through launch and designed the architecture across ReactJS, Django REST Framework, Python, MySQL, APIs, and cloud infrastructure.",
       "Developed crop advisory, yield forecasting, irrigation planning, and conversational AI modules, while scaling the platform to support multiple regions and languages.",
       "Implemented RAG-style retrieval using embeddings, structured prompts, and domain-specific context; integrated Anthropic Claude and OpenAI APIs for grounded, multilingual farmer guidance.",
-      "Evaluated Claude- and OpenAI-generated responses against agriculture-specific prompts to improve accuracy, safety, tone, and practical usefulness.",
+      "Evaluated Claude- and OpenAI-generated responses against agriculture-specific prompts using bias detection and monitoring to improve accuracy, safety, tone, and practical usefulness.",
+      "Designed AI-driven decision-support workflows that combine structured agricultural information with predictive model outputs, helping users interpret complex data and make informed decisions.",
+      "Coordinated development and testing of AI-powered application features — focusing on data quality, backend integration, and consistent delivery of model-generated insights.",
     ],
   },
   {
     company: "Wipro",
-    role: "GenAI & LLM Evaluation Specialist",
+    role: "GenAI & LLM Evaluation Specialist · Client: Google",
     period: "Nov 2025 – Apr 2026",
     location: "Dallas, TX",
     accent: "#60a5fa",
@@ -324,6 +327,8 @@ export const experience: Experience[] = [
       "Led AI safety and red-team testing using bias detection and adversarial prompting — −28% harmful outputs, in collaboration with alignment teams.",
       "Developed ELK-based monitoring dashboards for latency and hallucination trends — −25% model-degradation incidents; integrated evaluation into Git and Jenkins CI/CD workflows.",
       "Applied human-in-the-loop annotation and R-based analysis to assess grounding, instruction following, safety, retrieval quality, reasoning accuracy, latency, and response consistency.",
+      "Documented model failure patterns and evaluation findings to support systematic troubleshooting, quality improvements, and more reliable AI-generated outputs.",
+      "Developed Python-based AI applications integrating Google Cloud Platform services and BigQuery for enterprise data analysis.",
     ],
   },
   {
@@ -339,6 +344,8 @@ export const experience: Experience[] = [
       "Optimized distributed training with FlashAttention and GPU scheduling — −30% training cost and improved experimentation throughput.",
       "Implemented SHAP and Fairness Indicators pipelines that reduced demographic performance gaps by 22%.",
       "Engineered Spark and Kafka pipelines processing more than 5TB of daily interaction data; deployed high-throughput models with Docker and Kubernetes.",
+      "Analyzed model behavior across varied inputs and edge cases to identify prediction inconsistencies, reasoning failures, and opportunities to improve AI system performance.",
+      "Applied Python-based testing and analytical techniques to assess model outputs, investigate unexpected behavior, and support iterative refinement of AI workflows.",
     ],
   },
   {
@@ -354,6 +361,7 @@ export const experience: Experience[] = [
       "Engineered agentic workflows with API integrations for autonomous task execution across enterprise applications; optimized hybrid BM25/vector retrieval — +25% response accuracy.",
       "Implemented GitHub Actions-based LLMOps pipelines with monitoring and observability — −35% release errors.",
       "Developed Python and R predictive models that improved credit-risk accuracy by 18%, using statistical analysis and SHAP to identify degradation and guide retraining.",
+      "Improved the reliability of enterprise AI applications through response validation, retrieval-quality assessment, and troubleshooting of data-access and integration issues.",
     ],
   },
   {
@@ -369,6 +377,8 @@ export const experience: Experience[] = [
       "Built scalable ML and data pipelines with AWS SageMaker, Redshift, Athena, Spark, Airflow, and AWS Glue, reducing data-preparation time and accelerating large-scale training.",
       "Developed transformer-based conversational systems and optimized inference with batching to improve response accuracy and latency for high-traffic applications.",
       "Implemented Jenkins and GitHub Actions MLOps pipelines — −40% deployment timelines; partnered with product and engineering teams to productionize API-integrated ML systems.",
+      "Conducted exploratory data analysis and feature-level investigations to surface data anomalies, inconsistent patterns, and the factors driving model performance.",
+      "Performed iterative model testing and error analysis to evaluate prediction quality, identify performance limits, and guide improvements to ML workflows.",
     ],
   },
 ];
@@ -391,6 +401,7 @@ export const projects: Project[] = [
   {
     name: "Autonomous Multi-Agent Enterprise Orchestrator",
     visual: "orchestrator",
+    repo: "https://github.com/golamarivijesh-glitch/agentic-ai-orchestrator",
     tags: ["LangChain", "LangGraph", "Agentic AI", "Airflow"],
     highlights: [
       "Multi-agent orchestration coordinating task planning and execution across complex enterprise workflows.",
